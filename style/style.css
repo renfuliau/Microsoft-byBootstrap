@@ -1,0 +1,201 @@
+@charset "UTF-8";
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', SegoeUI, 'Microsoft JhengHei', 微軟正黑體, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Microsoft_navbar {
+  height: 54px;
+}
+
+nav {
+  height: 54px;
+}
+
+.navbar-brand .logo {
+  width: 137px;
+  height: 54px;
+  background-image: url("/img/logo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  padding: 0;
+  width: 1620px;
+}
+
+@media (min-width: 1780px) {
+  .container {
+    width: 1620px;
+  }
+}
+
+.banner1_01 {
+  background-image: url("/img/banner1_01.webp");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding-left: 50px;
+}
+
+.swiper-slide div div {
+  position: absolute;
+  text-align: start;
+  top: 200px;
+  left: 100px;
+}
+
+.swiper-slide div div h1 {
+  font-size: 46px;
+  line-height: 56px;
+  padding: 37px 0 3px;
+  font-weight: 600;
+  letter-spacing: -.01em;
+  overflow: hidden;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  max-height: 112px;
+  font-weight: 600;
+  opacity: .95;
+}
+
+.swiper-slide div div a {
+  font-size: 15px;
+  padding: 10px 20px 6px 22px;
+  position: relative;
+  border: 2px solid transparent;
+  outline: 1px solid transparent;
+  outline-offset: -3px;
+  max-width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0;
+  line-height: 1.3;
+  white-space: nowrap;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 0 4px 8px 0 transparent;
+          box-shadow: 0 4px 8px 0 transparent;
+  background: black;
+}
+
+.banner_2 .container .row .col-12 {
+  background-image: url("/img/banner2_01.webp");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+
+.banner_2 .container .row .col-12 div {
+  position: absolute;
+  z-index: 1;
+  max-width: 520px;
+  top: calc(50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 70px;
+}
+
+.banner_2 .container .row .col-12 div a {
+  font-size: 15px;
+  padding: 10px 20px 6px 22px;
+  position: relative;
+  border: 2px solid transparent;
+  outline: 1px solid transparent;
+  outline-offset: -3px;
+  max-width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0;
+  line-height: 1.3;
+  white-space: nowrap;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 0 4px 8px 0 transparent;
+          box-shadow: 0 4px 8px 0 transparent;
+  color: #fff;
+  background-color: #000;
+}
+
+.card {
+  border: none;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.card .card-body {
+  padding-right: 0;
+  padding-left: 15px;
+}
+
+.card .card-body a {
+  padding: 10px 3px 7px 0;
+  position: relative;
+  border: 2px solid transparent;
+  outline: 1px solid transparent;
+  outline-offset: -3px;
+  margin-left: 0;
+  color: #0067b8;
+  background: transparent;
+  -webkit-transition: none;
+  transition: none;
+  white-space: normal;
+  text-align: left;
+}
+
+.cards_1 {
+  margin: 40px 0px;
+}
+
+.cards_2title {
+  font-size: 26px;
+  font-family: 'Segoe UI', SegoeUI, 'Microsoft JhengHei', 微軟正黑體, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000;
+  padding-top: 30px;
+}
+
+.cards_2 {
+  margin: 40px 0px;
+}
+/*# sourceMappingURL=style.css.map */
