@@ -9,7 +9,7 @@
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <title>Document</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <link rel="stylesheet" href="/style/style.css">
 
 
@@ -32,46 +32,63 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Office</a>
+                                <a class="nav-link hvr-underline-reveal" href="#">Office</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Windows</a>
+                                <a class="nav-link hvr-underline-reveal" href="#">Windows</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Surface</a>
+                                <a class="nav-link hvr-underline-reveal" href="#">Surface</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Xbox</a>
+                                <a class="nav-link hvr-underline-reveal" href="#">Xbox</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">支援</a>
+                                <a class="nav-link hvr-underline-reveal" href="#">支援</a>
                             </li>
                         </ul>
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle hvr-underline-reveal" href="#" id="navbarDropdown"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     所有 Microsoft
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">軟體</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    <a class="dropdown-item" href="#">個人電腦與設備</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">娛樂</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">商務適用</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Developer & IT</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">其他</a>
                                 </div>
                             </li>
                         </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
+                        <div class="icon_groups d-flex">
+                            <a class="search_icon hvr-underline-reveal">
+                                <span>搜尋</span>
+                                <img src="/img/search_icon.png" alt="">
+                            </a>
+                            <a class="shop_icon hvr-underline-reveal">
+                                <span>購物車</span>
+                                <img src="/img/shop_icon.png" alt="">
+                            </a>
+                            <a class="signin_icon hvr-underline-reveal">
+                                <span>登入</span>
+                                <img src="/img/signin_icon.png" alt="">
+                            </a>
+                        </div>
                     </div>
                 </nav>
             </div>
         </div>
 
-        <div class="banner_1">
-            <div class="container">
+        <!-- <div class="banner_1_sc">
+            <div class="container d-flex justify-content-center">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -101,9 +118,42 @@
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
+        </div> -->
+
+        <div class="banner_1_sc">
+            <div class="container">
+                <div class="swiper-container row">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide banner1">
+                            <img class="banner1_img_01" src="/img/banner1_01.webp" alt="">
+                            <img class="banner1_img_01_mobile" src="/img/banner1_01_mobile.webp" alt="">
+                            <div class="banner1_content_01">
+                                <h1>全新的 Surface Laptop 3</h1>
+                                <p>每天使用的完美筆記型電腦，速度比以往更快</p>
+                                <a href="">立即選購</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide banner2">
+                            <img class="banner1_img_02" src="/img/banner1_02.webp" alt="">
+                            <img class="banner1_img_02_mobile" src="/img/banner1_02_mobile.webp" alt="">
+                            <div class="banner1_content_02">
+                                <h1>全新的 Surface Pro 7</h1>
+                                <p>纖變萬化</p>
+                                <a href="">立即選購</a>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
         </div>
 
-        <div class="cards_1">
+        <div class="cards_1_sc">
             <div class="container">
                 <div class="row">
                     <div class="card col-12 col-sm-6 col-lg-3" style="width: 18rem;">
@@ -145,7 +195,7 @@
             </div>
         </div>
 
-        <div class="banner_2">
+        <!-- <div class="banner_2_sc">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -154,6 +204,24 @@
                             <p>終極遊戲和 4K Ultra HD 娛樂系統。</p>
                             <a href=""><span>了解更多</span></a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="banner_2_sc">
+            <div class="container">
+                <div class="row">
+                    <img class="banner_2 col-12" src="/img/banner2_01.webp" alt="">
+
+                    <img class="banner_2_mobile col-12" src="/img/banner2_01_mobile.webp" alt="">
+
+                    <div class="col-12">
+
+                        <h1>Xbox One S</h1>
+                        <p>終極遊戲和 4K Ultra HD 娛樂系統。</p>
+                        <a href=""><span>了解更多</span></a>
+
                     </div>
                 </div>
             </div>
@@ -166,7 +234,7 @@
 
         </div>
 
-        <div class="cards_2">
+        <div class="cards_2_sc">
 
             <div class="container">
                 <div class="row">
@@ -203,6 +271,12 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="social_media_sc">
+            <div class="container">
+
             </div>
         </div>
     </div>
