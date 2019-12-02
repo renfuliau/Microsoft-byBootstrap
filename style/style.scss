@@ -40,6 +40,10 @@ nav {
 
 .icon_groups div {
     padding: 0 10px;
+    .search_icon {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .swiper-container {
